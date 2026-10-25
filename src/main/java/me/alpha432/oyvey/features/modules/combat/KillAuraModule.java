@@ -20,7 +20,7 @@ public class KillAuraModule extends Module {
     private final Setting<Boolean> sync = bool("MovementSync", false);
 
     public KillAuraModule() {
-        super("KillAura", "Attacks nearby players.", Category.COMBAT);
+        super("AutoSword", "Attacks nearby players.", Category.COMBAT);
     }
 
     @Subscribe public void onPreTick(TickEvent.Pre event) {
